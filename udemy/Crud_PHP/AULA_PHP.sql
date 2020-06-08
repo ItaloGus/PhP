@@ -1,5 +1,6 @@
 -- Banco de dados: `aula_php`
--- BANCO DE DADOS UTILIZADO PARA O SISTEMA DE CADASTRO DE ALUNO
+--
+CREATE DATABASE AULA_PHP;
 
 -- --------------------------------------------------------
 
@@ -78,7 +79,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `USUARIO`, `SENHA`) VALUES
-(1, 'admin', '69f9d773bf1c571dc7a278d95628014c');
+(1, 'admin', ' ');
 
 --
 -- Índices para tabelas despejadas
@@ -135,4 +136,3 @@ ALTER TABLE `cursos`
 --
 ALTER TABLE `usuarios`
   MODIFY `id_usuario` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
-COMMIT;
